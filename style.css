@@ -1,0 +1,58 @@
+.naika{
+	background-image:url('images/farjuni.jpg');
+	width:500px;
+	height:400px;
+	background-size:500px 400px;
+	margin:200px auto;
+	position:relative;
+}
+.naika:before{
+	background:#6ab04c;
+	width:250px;
+	height:400px;
+	content:'';
+	display:block;
+	clear:both;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:2s;
+}
+.naika:after{
+	background:#6ab04c;
+	width:250px;
+	height:400px;
+	content:'';
+	display:block;
+	clear:both;
+	position:absolute;
+	top:0;
+	right:0;
+	transition:2s;
+}
+.naika:hover:before{
+	top:0;
+	left:-250px;
+	transform:rotateY(180deg);
+	background:#f6e58d;
+	
+}
+.naika:hover:after{
+	top:0;
+	right:-250px;
+	transform:rotateY(180deg);
+	background:#f6e58d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
